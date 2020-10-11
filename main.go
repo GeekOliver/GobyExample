@@ -1,7 +1,9 @@
 package main
 
-import "GobyExample/Basic"
+import (
+	"GobyExample/Advance"
+)
 
 func main() {
- 	Basic.TestInterface()
+ 	Advance.TestF()
 }
