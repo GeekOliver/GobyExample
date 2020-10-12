@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GobyExample/Advance"
+	"GobyExample/Limit"
 )
 
 func main() {
- 	Advance.TestCSS()
+	Limit.TestAtomic()
 }
