@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	Limit.TestAtomic()
+	Limit.TestRateLimit()
 }
