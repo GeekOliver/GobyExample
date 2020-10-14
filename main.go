@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GobyExample/Lock"
+	"GobyExample/Panicdefer"
 )
 
 func main() {
-	Lock.SatefulGoroutines()
+	Panicdefer.TestDefer()
 }
