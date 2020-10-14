@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GobyExample/Limit"
+	"GobyExample/Lock"
 )
 
 func main() {
-	Limit.TestRateLimit()
+	Lock.SatefulGoroutines()
 }
