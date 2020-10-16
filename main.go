@@ -1,9 +1,9 @@
 package main
 
 import (
-	"GobyExample/Panicdefer"
+	"GobyExample/Limit"
 )
 
 func main() {
-	Panicdefer.TestDefer()
+	Limit.TestRateLimit()
 }
