@@ -9,11 +9,12 @@
 
 ### Mutex中的data race竞争
 
+```shell
+go run -race Mutex.go 
+#可以检测出数据竞争
+```
 
-+ go run -race Mutex.go 可以检测出数据竞争
-
-
-+ 1,引入
++ 1.引入
 
 
 
