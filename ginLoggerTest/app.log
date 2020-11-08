@@ -1,0 +1,20 @@
+2020-11-07 21:16:41.044060	INFO	gin!logger@v1.0.0/logger.go:134	/hello	{"status": 200, "method": "GET", "path": "/hello", "query": "", "ip": "127.0.0.1", "user-agent": "curl/7.65.3", "resId": ""}
+2020-11-07 21:16:41.045640	INFO	gin!logger@v1.0.0/logging.go:22	this info	{"resId": ""}
+2020-11-07 21:16:41.045661	ERROR	gin!logger@v1.0.0/logging.go:34	this is error	{"resId": ""}
+2020-11-07 21:16:41.045668	WARN	gin!logger@v1.0.0/logging.go:28	this is warn	{"resId": ""}
+2020-11-07 21:16:41.045707	INFO	gin!logger@v1.0.0/logger.go:145	/hello	{"status": 200, "method": "GET", "path": "/hello", "query": "", "ip": "127.0.0.1", "user-agent": "curl/7.65.3", "errors": "", "costTime(s)": 0.001651046, "resId": ""}
+2020-11-07 21:16:56.480499	INFO	gin!logger@v1.0.0/logger.go:134	/hello	{"status": 200, "method": "GET", "path": "/hello", "query": "resId=10000", "ip": "127.0.0.1", "user-agent": "curl/7.65.3", "resId": "10000"}
+2020-11-07 21:16:56.480557	INFO	gin!logger@v1.0.0/logging.go:22	this info	{"resId": "10000"}
+2020-11-07 21:16:56.480566	ERROR	gin!logger@v1.0.0/logging.go:34	this is error	{"resId": "10000"}
+2020-11-07 21:16:56.480572	WARN	gin!logger@v1.0.0/logging.go:28	this is warn	{"resId": "10000"}
+2020-11-07 21:16:56.480598	INFO	gin!logger@v1.0.0/logger.go:145	/hello	{"status": 200, "method": "GET", "path": "/hello", "query": "resId=10000", "ip": "127.0.0.1", "user-agent": "curl/7.65.3", "errors": "", "costTime(s)": 0.000100301, "resId": "10000"}
+{"level":"INFO","time":"2020-11-07 21:17:27.400966","caller":"gin!logger@v1.0.0/logger.go:134","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"resId=10000","ip":"127.0.0.1","user-agent":"curl/7.65.3","resId":"10000"}
+{"level":"INFO","time":"2020-11-07 21:17:27.401042","caller":"gin!logger@v1.0.0/logging.go:22","msg":"this info","resId":"10000"}
+{"level":"ERROR","time":"2020-11-07 21:17:27.401053","caller":"gin!logger@v1.0.0/logging.go:34","msg":"this is error","resId":"10000"}
+{"level":"WARN","time":"2020-11-07 21:17:27.401059","caller":"gin!logger@v1.0.0/logging.go:28","msg":"this is warn","resId":"10000"}
+{"level":"INFO","time":"2020-11-07 21:17:27.401079","caller":"gin!logger@v1.0.0/logger.go:145","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"resId=10000","ip":"127.0.0.1","user-agent":"curl/7.65.3","errors":"","costTime(s)":0.00011631,"resId":"10000"}
+{"level":"INFO","time":"2020-11-07 21:50:42.248235","caller":"gin!logger@v1.0.0/logger.go:134","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"resId=10000","ip":"127.0.0.1","user-agent":"curl/7.65.3","resId":"10000"}
+{"level":"INFO","time":"2020-11-07 21:50:42.249889","caller":"gin!logger@v1.0.0/logging.go:22","msg":"this info","resId":"10000"}
+{"level":"ERROR","time":"2020-11-07 21:50:42.249907","caller":"gin!logger@v1.0.0/logging.go:34","msg":"this is error","resId":"10000"}
+{"level":"WARN","time":"2020-11-07 21:50:42.249914","caller":"gin!logger@v1.0.0/logging.go:28","msg":"this is warn","resId":"10000"}
+{"level":"INFO","time":"2020-11-07 21:50:42.249935","caller":"gin!logger@v1.0.0/logger.go:145","msg":"/hello","status":200,"method":"GET","path":"/hello","query":"resId=10000","ip":"127.0.0.1","user-agent":"curl/7.65.3","errors":"","costTime(s)":0.001707125,"resId":"10000"}
