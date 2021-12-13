@@ -13,7 +13,6 @@ func Value()  {
 	fmt.Println("7.0/3.0=", 7.0/3.0)
 
 	//bool
-
 	fmt.Println(true && false)
 	fmt.Println(true||false)
 	fmt.Println(!true)

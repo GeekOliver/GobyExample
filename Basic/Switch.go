@@ -27,6 +27,7 @@ func Switch()  {
 	default:
 		fmt.Println("it's a weekday")
 	}
+	
 
 	// 不带表达式的 `switch` 是实现 if/else 逻辑的另一种
 	// 方式。这里展示了 `case` 表达式是如何使用非常量的。

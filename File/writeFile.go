@@ -34,6 +34,7 @@ func main()  {
 	check(err)
 	fmt.Printf("wrote %d bytes\n", n2)
 
+	
 	// `WriteString` 也是可用的。
 	n3, err := f.WriteString("writes\n")
 	fmt.Printf("wrote %d bytes\n", n3)

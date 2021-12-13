@@ -6,7 +6,7 @@ import (
 )
 
 func main()  {
-	s := "sha1 average joe wang"
+	s := "sha1 geek oliver"
 
 
 	h:=sha1.New()

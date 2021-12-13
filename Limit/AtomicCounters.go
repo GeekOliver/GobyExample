@@ -25,6 +25,7 @@ func TestAtomic()  {
             }
         }()
     }
+    
     // 等待一秒，让 ops 的自加操作执行一会。
     time.Sleep(time.Second)
 
