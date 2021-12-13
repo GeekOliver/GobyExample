@@ -8,6 +8,7 @@ func f(from string)  {
 	}
 }
 
+
 func TestF()  {
 	// 假设我们有一个函数叫做 `f(s)`。我们使用一般的方式
 	// 调并同时运行。
